@@ -1,13 +1,24 @@
+@import "./reset.min.css";
 html {
-  box-sizing: border-box;
+ height: 100%;
 }
 
 body {
-  height: 100vh;
-  margin: 0;
-  overflow: hidden;
+ height: 100%;
+ margin: 0;
+ overflow: hidden;
 }
 
 #app {
-  height: 100%;
+ height: 100%;
+}
+
+* {
+ margin: 0;
+}
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
 }
